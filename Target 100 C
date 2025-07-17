@@ -1,0 +1,42 @@
+1.swapp without variable 
+#include<stdio.h>
+int main(){
+   int a=1,b=7;
+  a=a^b; // assigned valu to binary then xor bit change will swap 
+  b=a^b;
+  a=a^b;
+  printf("%d %d",a,b);
+    return 0;}
+
+2.#include<stdio.h>
+int main()
+{
+    int a =6,b=48,c=993830;
+    if (a >b && a>c)
+    {
+       printf("%d",a)
+    }
+    else if (b>c )
+    {
+      printf("%d",b);
+      
+     }
+      else {
+            printf( "%d",c  );
+           }
+                     
+     return 0;
+   }  
+                               
+
+3.factorial 
+#include<stdio.h>
+int main()
+{ int i,n=5,f=1;
+for (i=1;i<n+1 ;i++)
+{f=f*i}
+printf("%d",f);
+return 0;
+}
+                                                  }                          
+                       
