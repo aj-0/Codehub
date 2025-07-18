@@ -59,3 +59,31 @@ int main()
 printf("%d",f);
 return 0;
 }
+
+5.Reverse 
+#include<stdio.h>
+int main()
+{ int a ,m,r ,rev,rem,i;
+scanf ("%d",&a);
+  for (i=a;a!=0;i++){
+      r=a%10;
+      rev= rev*10+r;
+      a=a/10;}      
+printf("%d",rev);
+return 0;
+}
+
+#include<stdio.h>
+int main()
+{ int a ,m,r ,rev,rem;
+scanf ("%d",&a);
+  while (a!=0){
+      r=a%10;
+      rev= rev*10+r;
+      a=a/10;}      
+printf("%d",rev);
+return 0;
+}
+
+
+6.
